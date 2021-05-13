@@ -29,7 +29,6 @@ public class DifferenceOfSquares {
 		System.out.println("The difference between the sum of the squares and " + " the square of the sum of the first " + num + " natural numbers is "+calculateDifference(num));
 		
 		sc.close();
-		System.out.print("message");
 	}
 
 }
