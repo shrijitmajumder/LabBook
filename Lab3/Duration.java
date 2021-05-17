@@ -31,7 +31,7 @@ public class Duration {
 			System.out.println("Duration is "+Math.abs(prd.getDays())+" days "+Math.abs(prd.getMonths())+" months and "+Math.abs(prd.getYears())+" years.");
 		}
 		catch(Exception e) {
-			System.out.println("Either Date is not in correct format or Date does not exist");
+			System.out.println("Either Date is not in correct format or Date does not exist.");
 		}
 		
 		sc.close();
