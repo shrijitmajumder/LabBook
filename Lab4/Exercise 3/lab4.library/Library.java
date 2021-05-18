@@ -269,34 +269,6 @@ public class Library {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/*Book b = new Book(1234, "Harry Potter and The Philosopher's Stone", 5, "J.K. Rowling");
-        b.addItem();
-        b.print();
-        System.out.println("After checkout, number of copies left: ");
-        b.checkOut();
-        b.print();
-        System.out.println("After adding one element, number of copies left: ");
-        b.addItem();
-        b.print();
-
-        System.out.println();
-
-        Video v = new Video(4567, "The Godfather", 3, 178, "Francis Ford Coppola", "Crime/Drama", 1972);
-        v.addItem();
-        v.print();
-        System.out.println("After checking in, number of copies left: ");
-        v.checkIn();
-        v.print();
-
-        System.out.println();
-
-        CD c = new CD(1090, "Heal the World", 2, 625, "Michael Jackson", "Pop");
-        c.addItem();
-        c.print();
-        System.out.println("After checking out, number of copies left: ");
-        c.checkOut();
-        c.print();*/
-		
 		Scanner sm_sc=new Scanner(System.in);
 		int choice1;
 
