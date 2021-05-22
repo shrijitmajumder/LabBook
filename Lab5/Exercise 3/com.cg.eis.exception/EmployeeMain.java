@@ -16,12 +16,12 @@ public class EmployeeMain {
 			String name=sc.nextLine();
 			System.out.print("Enter Employee Age : ");
 			int age=sc.nextInt();
-			System.out.print("Enter Employee salary : ");
+			System.out.print("Enter Employee Salary : ");
 			double salary=sc.nextDouble();
 			Employee e = new Employee(id,name,age,salary);
 			e.validateSalary(salary);
 		}catch(EmployeeException e) {
-			System.out.println("Error Message : "+e);
+			System.out.println("Error Message : "+e.getMessage());
 		}
 		sc.close();
 	}
