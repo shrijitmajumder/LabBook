@@ -25,7 +25,7 @@ public class NameExceptionMain {
 			validateName(name);
 		}
 		catch(NameException e) {
-			System.out.println("Error Message : "+e);
+			System.out.println("Error Message : "+e.getMessage());
 		}
 		
 		sc.close();
