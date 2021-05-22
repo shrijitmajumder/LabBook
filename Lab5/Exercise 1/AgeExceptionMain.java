@@ -21,7 +21,7 @@ public class AgeExceptionMain {
 			validateAge(age);
 		}catch(AgeException e)
 		{
-			System.out.println("Error Message : "+e);
+			System.out.println("Error Message : "+e.getMessage());
 		}
 		
 		sc.close();
