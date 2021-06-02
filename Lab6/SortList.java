@@ -62,7 +62,7 @@ public class SortList {
 						System.out.println((list.size()-i)+". "+m.getKey()+" : "+m.getValue());
 					}
 					break;
-			default: System.out.println("Enter correct choice(1-3)...");
+			default: System.out.println("Enter correct choice(1-2)...");
 			
 			}
 		}
